@@ -1,0 +1,25 @@
+# --- GLOBAL ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- BACKEND (Python) ---
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+backend/.pytest_cache/
+
+# --- FRONTEND (Node/Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
